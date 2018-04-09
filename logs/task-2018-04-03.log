@@ -1,0 +1,209 @@
+[2018-04-03T15:29:39.066] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:29:39.086] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"Error: Unexpected field\n    at makeError (E:\\nodeJS\\koa\\koa2\\node_modules\\_multer@1.3.0@multer\\lib\\make-error.js:12:13)\n    at wrappedFileFilter (E:\\nodeJS\\koa\\koa2\\node_modules\\_multer@1.3.0@multer\\index.js:40:19)\n    at Busboy.<anonymous> (E:\\nodeJS\\koa\\koa2\\node_modules\\_multer@1.3.0@multer\\lib\\make-middleware.js:114:7)\n    at emitMany (events.js:147:13)\n    at Busboy.emit (events.js:224:7)\n    at Busboy.emit (E:\\nodeJS\\koa\\koa2\\node_modules\\_busboy@0.2.14@busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (E:\\nodeJS\\koa\\koa2\\node_modules\\_busboy@0.2.14@busboy\\lib\\types\\multipart.js:213:13)\n    at emitOne (events.js:116:13)\n    at PartStream.emit (events.js:211:7)\n    at HeaderParser.<anonymous> (E:\\nodeJS\\koa\\koa2\\node_modules\\_dicer@0.2.5@dicer\\lib\\Dicer.js:51:16)\n    at emitOne (events.js:116:13)\n    at HeaderParser.emit (events.js:211:7)\n    at HeaderParser._finish (E:\\nodeJS\\koa\\koa2\\node_modules\\_dicer@0.2.5@dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (E:\\nodeJS\\koa\\koa2\\node_modules\\_dicer@0.2.5@dicer\\lib\\HeaderParser.js:40:12)\n    at emitMany (events.js:147:13)\n    at SBMH.emit (events.js:224:7)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:31:43.525] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:31:57.852] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"SyntaxError: Unexpected token u in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at imgidentify (E:\\nodeJS\\koa\\koa2\\controller\\tencent.js:56:21)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:32:29.007] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:32:29.213] [INFO] cheese - 响应时间为0.232s
+[2018-04-03T15:32:56.173] [ERROR] cheese - {"method":"POST","url":"/cardOcr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:33:09.831] [INFO] cheese - 响应时间为13.66s
+[2018-04-03T15:33:16.834] [ERROR] cheese - {"method":"POST","url":"/cardOcr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:33:18.834] [INFO] cheese - 响应时间为2.003s
+[2018-04-03T15:33:27.234] [ERROR] cheese - {"method":"POST","url":"/textchat","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:33:27.398] [INFO] cheese - 响应时间为0.166s
+[2018-04-03T15:33:31.858] [ERROR] cheese - {"method":"POST","url":"/cardOcr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:33:35.002] [INFO] cheese - 响应时间为3.145s
+[2018-04-03T15:33:37.081] [ERROR] cheese - {"method":"POST","url":"/cardOcr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:33:41.432] [INFO] cheese - 响应时间为4.353s
+[2018-04-03T15:33:44.421] [ERROR] cheese - {"method":"POST","url":"/cardOcr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:33:51.625] [INFO] cheese - 响应时间为7.206s
+[2018-04-03T15:35:40.787] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:35:42.811] [INFO] cheese - 响应时间为2.041s
+[2018-04-03T15:36:05.759] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:36:06.466] [INFO] cheese - 响应时间为0.732s
+[2018-04-03T15:39:17.698] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:39:19.765] [INFO] cheese - 响应时间为2.072s
+[2018-04-03T15:40:00.040] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:40:01.250] [INFO] cheese - 响应时间为1.212s
+[2018-04-03T15:53:42.886] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:53:43.785] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"ReferenceError: file is not defined\n    at imgidentify (E:\\nodeJS\\koa\\koa2\\controller\\tencent.js:62:35)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:54:05.510] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:54:06.945] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"Error: ENOENT: no such file or directory, unlink 'E:\\uploads\\1522742045522.jpg'\n    at Object.fs.unlinkSync (fs.js:1061:18)\n    at imgidentify (E:\\nodeJS\\koa\\koa2\\controller\\tencent.js:61:12)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:54:36.776] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:54:37.812] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"Error: ENOENT: no such file or directory, unlink 'E:\\uploads\\1522742076788.jpg'\n    at Object.fs.unlinkSync (fs.js:1061:18)\n    at imgidentify (E:\\nodeJS\\koa\\koa2\\controller\\tencent.js:60:12)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:56:18.541] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:56:20.172] [INFO] cheese - 响应时间为1.655s
+[2018-04-03T15:56:41.801] [ERROR] cheese - {"method":"POST","url":"/imgidentify","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T15:56:42.833] [INFO] cheese - 响应时间为1.034s
+[2018-04-03T16:06:14.939] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:06:14.940] [INFO] cheese - 响应时间为0.002s
+[2018-04-03T16:06:22.126] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:06:24.257] [INFO] cheese - 响应时间为2.155s
+[2018-04-03T16:22:25.366] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:22:25.386] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"ReferenceError: failname is not defined\n    at assFormat (E:\\nodeJS\\koa\\koa2\\controller\\tencent.js:23:18)\n    at asr (E:\\nodeJS\\koa\\koa2\\controller\\tencent.js:89:22)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:44:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:45:18)\n    at <anonymous>","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:23:12.279] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:23:12.855] [INFO] cheese - 响应时间为0.6s
+[2018-04-03T16:23:52.179] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:23:52.667] [INFO] cheese - 响应时间为0.51s
+[2018-04-03T16:24:20.152] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:24:20.604] [INFO] cheese - 响应时间为0.47s
+[2018-04-03T16:24:43.356] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:24:43.852] [INFO] cheese - 响应时间为0.513s
+[2018-04-03T16:25:16.148] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:25:16.692] [INFO] cheese - 响应时间为0.566s
+[2018-04-03T16:25:58.870] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:25:59.358] [INFO] cheese - 响应时间为0.513s
+[2018-04-03T16:26:26.041] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:26:26.478] [INFO] cheese - 响应时间为0.456s
+[2018-04-03T16:27:01.136] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:27:01.829] [INFO] cheese - 响应时间为0.716s
+[2018-04-03T16:27:17.498] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:27:17.993] [INFO] cheese - 响应时间为0.515s
+[2018-04-03T16:31:03.980] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:31:04.008] [INFO] cheese - 响应时间为0.051s
+[2018-04-03T16:31:29.168] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:31:32.556] [INFO] cheese - 响应时间为3.405s
+[2018-04-03T16:32:27.461] [ERROR] cheese - {"method":"POST","url":"/asr","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:32:29.472] [INFO] cheese - 响应时间为2.015s
+[2018-04-03T16:34:11.952] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:34:13.814] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"ReferenceError: filename is not defined\n    at facemerge (E:\\nodeJS\\koa\\koa2\\controller\\tencent.js:105:36)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:35:18.954] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:35:19.897] [INFO] cheese - 响应时间为0.967s
+[2018-04-03T16:37:20.062] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:37:22.382] [INFO] cheese - 响应时间为2.337s
+[2018-04-03T16:46:52.456] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:47:06.798] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"SyntaxError: Unexpected token u in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at facemerge (E:\\nodeJS\\koa\\koa2\\controller\\tencent.js:108:21)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:47:52.063] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:47:53.821] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.\n    at Function.Buffer.from (buffer.js:183:11)\n    at new Buffer (buffer.js:158:17)\n    at facemerge (E:\\nodeJS\\koa\\koa2\\controller\\tencent.js:109:26)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:48:22.864] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:48:24.517] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.\n    at Function.Buffer.from (buffer.js:183:11)\n    at new Buffer (buffer.js:158:17)\n    at facemerge (E:\\nodeJS\\koa\\koa2\\controller\\tencent.js:110:26)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:51:15.371] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T16:51:17.822] [INFO] cheese - 响应时间为2.467s
+[2018-04-03T17:03:56.474] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:03:58.663] [INFO] cheese - 响应时间为2.202s
+[2018-04-03T17:07:03.998] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:07:05.711] [INFO] cheese - 响应时间为1.734s
+[2018-04-03T17:12:55.886] [ERROR] cheese - {"method":"GET","url":"/1522746425697.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:12:55.889] [INFO] cheese - 响应时间为0.03s
+[2018-04-03T17:13:01.993] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:13:03.756] [INFO] cheese - 响应时间为1.766s
+[2018-04-03T17:15:23.191] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:15:25.930] [INFO] cheese - 响应时间为2.742s
+[2018-04-03T17:15:52.605] [ERROR] cheese - {"method":"GET","url":"/saveimage/1522746925912.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:15:52.613] [INFO] cheese - 响应时间为0.017s
+[2018-04-03T17:15:53.423] [ERROR] cheese - {"method":"GET","url":"/favicon.ico","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/saveimage/1522746925912.png","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:15:53.423] [INFO] cheese - 响应时间为0.004s
+[2018-04-03T17:19:58.742] [ERROR] cheese - {"method":"GET","url":"/saveimage/1522746925912.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:19:58.756] [ERROR] cheese - {"method":"GET","url":"/saveimage/1522746925912.png","host":"localhost:3000","message":"ReferenceError: req is not defined\n    at router.get (E:\\nodeJS\\koa\\koa2\\router.js:59:41)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:44:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:45:18)\n    at E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-router@7.4.0@koa-router\\lib\\router.js:346:16\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:44:32)\n    at E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:36:12\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-router@7.4.0@koa-router\\lib\\router.js:351:31)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at E:\\nodeJS\\koa\\koa2\\middleware\\mi-send\\index.js:9:15\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at bodyParser (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-bodyparser@4.2.0@koa-bodyparser\\index.js:73:54)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at _callee2$ (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-nunjucks-2@3.0.2@koa-nunjucks-2\\compiled.js:130:22)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:20:33.462] [ERROR] cheese - {"method":"GET","url":"/saveimage/1522746925912.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:20:33.468] [ERROR] cheese - {"method":"GET","url":"/saveimage/1522746925912.png","host":"localhost:3000","message":"TypeError: Cannot read property 'url' of undefined\n    at router.get (E:\\nodeJS\\koa\\koa2\\router.js:59:54)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:44:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:45:18)\n    at E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-router@7.4.0@koa-router\\lib\\router.js:346:16\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:44:32)\n    at E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:36:12\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-router@7.4.0@koa-router\\lib\\router.js:351:31)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at E:\\nodeJS\\koa\\koa2\\middleware\\mi-send\\index.js:9:15\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at bodyParser (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-bodyparser@4.2.0@koa-bodyparser\\index.js:73:54)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at _callee2$ (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-nunjucks-2@3.0.2@koa-nunjucks-2\\compiled.js:130:22)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:21:43.484] [ERROR] cheese - {"method":"GET","url":"/saveimage/1522746925912.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:21:43.492] [ERROR] cheese - {"method":"GET","url":"/saveimage/1522746925912.png","host":"localhost:3000","message":"ReferenceError: req is not defined\n    at router.get (E:\\nodeJS\\koa\\koa2\\router.js:61:21)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:44:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:45:18)\n    at E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-router@7.4.0@koa-router\\lib\\router.js:346:16\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:44:32)\n    at E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:36:12\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-router@7.4.0@koa-router\\lib\\router.js:351:31)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at E:\\nodeJS\\koa\\koa2\\middleware\\mi-send\\index.js:9:15\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at bodyParser (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-bodyparser@4.2.0@koa-bodyparser\\index.js:73:54)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at _callee2$ (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-nunjucks-2@3.0.2@koa-nunjucks-2\\compiled.js:130:22)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:23:09.485] [ERROR] cheese - {"method":"GET","url":"/saveimage/1522746925912.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:23:09.678] [ERROR] cheese - {"method":"GET","url":"/saveimage/1522746925912.png","host":"localhost:3000","message":"TypeError: ctx.sendFile is not a function\n    at router.get (E:\\nodeJS\\koa\\koa2\\router.js:62:13)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:44:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:45:18)\n    at E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-router@7.4.0@koa-router\\lib\\router.js:346:16\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:44:32)\n    at E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@3.2.1@koa-compose\\index.js:36:12\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-router@7.4.0@koa-router\\lib\\router.js:351:31)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at E:\\nodeJS\\koa\\koa2\\middleware\\mi-send\\index.js:9:15\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at bodyParser (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-bodyparser@4.2.0@koa-bodyparser\\index.js:73:54)\n    at dispatch (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:42:32)\n    at next (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-compose@4.0.0@koa-compose\\index.js:43:18)\n    at _callee2$ (E:\\nodeJS\\koa\\koa2\\node_modules\\_koa-nunjucks-2@3.0.2@koa-nunjucks-2\\compiled.js:130:22)","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:25:22.412] [ERROR] cheese - {"method":"GET","url":"/saveimage/1522746925912.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:25:22.598] [INFO] cheese - 响应时间为0.214s
+[2018-04-03T17:37:21.318] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:37:22.783] [INFO] cheese - 响应时间为1.487s
+[2018-04-03T17:37:38.400] [ERROR] cheese - {"method":"GET","url":"/public/saveimage/1522748242768.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:37:38.406] [INFO] cheese - 响应时间为0.013s
+[2018-04-03T17:38:20.659] [ERROR] cheese - {"method":"GET","url":"/public/saveimage/1522748242768.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:38:20.661] [INFO] cheese - 响应时间为0.038s
+[2018-04-03T17:38:23.163] [ERROR] cheese - {"method":"GET","url":"/public/saveimage/1522748242768.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:38:23.164] [INFO] cheese - 响应时间为0.005s
+[2018-04-03T17:40:13.213] [ERROR] cheese - {"method":"GET","url":"/home","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:40:13.216] [INFO] cheese - 响应时间为0.01s
+[2018-04-03T17:40:33.600] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:40:33.634] [INFO] cheese - 响应时间为0.041s
+[2018-04-03T17:40:33.650] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:40:37.044] [INFO] cheese - 响应时间为0.003s
+[2018-04-03T17:40:42.553] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:40:42.555] [INFO] cheese - 响应时间为0.003s
+[2018-04-03T17:40:42.593] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:40:56.796] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:40:56.798] [INFO] cheese - 响应时间为0.005s
+[2018-04-03T17:40:56.847] [INFO] cheese - 响应时间为0.008s
+[2018-04-03T17:41:02.341] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:42:38.785] [INFO] cheese - 响应时间为0.004s
+[2018-04-03T17:42:45.420] [ERROR] cheese - {"method":"GET","url":"/public/saveimage/1522748242768.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:42:45.422] [INFO] cheese - 响应时间为0.011s
+[2018-04-03T17:47:00.472] [ERROR] cheese - {"method":"GET","url":"/public/saveimage/1522748242768.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:47:00.474] [INFO] cheese - 响应时间为0.031s
+[2018-04-03T17:51:31.471] [ERROR] cheese - {"method":"GET","url":"/home/1522748242768.png","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:51:31.477] [INFO] cheese - 响应时间为0.012s
+[2018-04-03T17:51:56.171] [INFO] cheese - 响应时间为0.005s
+[2018-04-03T17:54:01.480] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:54:03.217] [INFO] cheese - 响应时间为1.738s
+[2018-04-03T17:54:07.072] [ERROR] cheese - {"method":"POST","url":"/facemerge","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:54:09.321] [INFO] cheese - 响应时间为2.274s
+[2018-04-03T17:54:27.124] [INFO] cheese - 响应时间为0.021s
+[2018-04-03T17:55:22.811] [ERROR] cheese - {"method":"GET","url":"/login","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:55:22.812] [INFO] cheese - 响应时间为0.005s
+[2018-04-03T17:56:02.975] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:02.998] [INFO] cheese - 响应时间为0.03s
+[2018-04-03T17:56:03.022] [INFO] cheese - 响应时间为0.003s
+[2018-04-03T17:56:03.025] [INFO] cheese - 响应时间为0.004s
+[2018-04-03T17:56:13.303] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:13.305] [INFO] cheese - 响应时间为0.008s
+[2018-04-03T17:56:13.342] [INFO] cheese - 响应时间为0.002s
+[2018-04-03T17:56:13.343] [INFO] cheese - 响应时间为0.005s
+[2018-04-03T17:56:19.004] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:19.006] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:56:19.045] [INFO] cheese - 响应时间为0.008s
+[2018-04-03T17:56:19.046] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:56:31.110] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:31.112] [INFO] cheese - 响应时间为0.014s
+[2018-04-03T17:56:31.149] [INFO] cheese - 响应时间为0.008s
+[2018-04-03T17:56:31.150] [INFO] cheese - 响应时间为0.003s
+[2018-04-03T17:56:32.111] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:32.112] [INFO] cheese - 响应时间为0.015s
+[2018-04-03T17:56:32.150] [INFO] cheese - 响应时间为0.01s
+[2018-04-03T17:56:32.151] [INFO] cheese - 响应时间为0.004s
+[2018-04-03T17:56:32.450] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:32.451] [INFO] cheese - 响应时间为0.012s
+[2018-04-03T17:56:32.554] [INFO] cheese - 响应时间为0.009s
+[2018-04-03T17:56:32.557] [INFO] cheese - 响应时间为0.01s
+[2018-04-03T17:56:32.779] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:32.781] [INFO] cheese - 响应时间为0.023s
+[2018-04-03T17:56:32.783] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:32.789] [INFO] cheese - 响应时间为0.026s
+[2018-04-03T17:56:32.915] [INFO] cheese - 响应时间为0.005s
+[2018-04-03T17:56:32.916] [INFO] cheese - 响应时间为0.003s
+[2018-04-03T17:56:32.952] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:32.952] [INFO] cheese - 响应时间为0.002s
+[2018-04-03T17:56:33.121] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:56:33.124] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:56:33.160] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:33.162] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:56:33.314] [INFO] cheese - 响应时间为0.004s
+[2018-04-03T17:56:33.315] [INFO] cheese - 响应时间为0.003s
+[2018-04-03T17:56:33.357] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:33.359] [INFO] cheese - 响应时间为0.007s
+[2018-04-03T17:56:33.546] [INFO] cheese - 响应时间为0.016s
+[2018-04-03T17:56:33.550] [INFO] cheese - 响应时间为0.005s
+[2018-04-03T17:56:33.585] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:33.586] [INFO] cheese - 响应时间为0.004s
+[2018-04-03T17:56:33.748] [INFO] cheese - 响应时间为0.004s
+[2018-04-03T17:56:33.748] [INFO] cheese - 响应时间为0.002s
+[2018-04-03T17:56:33.816] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:33.817] [INFO] cheese - 响应时间为0.002s
+[2018-04-03T17:56:33.830] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:33.831] [INFO] cheese - 响应时间为0.004s
+[2018-04-03T17:56:34.043] [INFO] cheese - 响应时间为0.012s
+[2018-04-03T17:56:34.046] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:56:35.728] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:35.730] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:56:35.761] [INFO] cheese - 响应时间为0.004s
+[2018-04-03T17:56:35.762] [INFO] cheese - 响应时间为0.002s
+[2018-04-03T17:56:45.481] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:56:45.506] [INFO] cheese - 响应时间为0.058s
+[2018-04-03T17:56:45.538] [INFO] cheese - 响应时间为0.008s
+[2018-04-03T17:56:45.540] [INFO] cheese - 响应时间为0.008s
+[2018-04-03T17:57:34.228] [ERROR] cheese - {"method":"GET","url":"/user","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:57:34.230] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:57:34.270] [INFO] cheese - 响应时间为0.008s
+[2018-04-03T17:57:34.271] [INFO] cheese - 响应时间为0.007s
+[2018-04-03T17:57:40.080] [ERROR] cheese - {"method":"GET","url":"/login","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:57:40.082] [INFO] cheese - 响应时间为0.006s
+[2018-04-03T17:57:52.018] [ERROR] cheese - {"method":"GET","url":"/login","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+[2018-04-03T17:57:52.046] [INFO] cheese - 响应时间为0.062s
+[2018-04-03T17:57:52.078] [INFO] cheese - 响应时间为0.016s
