@@ -1,4 +1,5 @@
 const Koa = require('koa')
+const cors = require('koa-cors') 
 const https = require('https')
 const path = require('path')
 const fs = require('fs')
@@ -18,6 +19,7 @@ const koaBody = require('koa-body')({
 });
 
 app.use(koaBody)
+app.use(cors())
 const middleware = require('./middleware') //中间件
 
 middleware(app)
@@ -26,6 +28,7 @@ router(app)
 app.listen(3000, () => {
   console.log('server is running at http://localhost:3000')
 })
+
 
 https.createServer(opt, app.callback()).listen(443, () => {
   console.log('server is running at https://localhost:443')
