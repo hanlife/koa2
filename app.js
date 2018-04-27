@@ -1,5 +1,5 @@
 const Koa = require('koa')
-const cors = require('koa-cors') 
+const cors = require('koa-cors')
 const https = require('https')
 const path = require('path')
 const fs = require('fs')

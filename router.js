@@ -19,6 +19,11 @@ var upload = multer({storage: storage});
 module.exports = (app) => {
 
     router.get('/', HomeController.index)
+    // 测试上传接口
+    router.post('/test', HomeController.test)
+
+    // 测试上传视频文件
+    router.post('/video', upload.single('video'), HomeController.video)
 
     router.get('/home', HomeController.home)
 

@@ -5,6 +5,17 @@ module.exports = {
     index: async function (ctx, next) {
         await ctx.render("home/index", {title: "iKcamp欢迎您"})
     },
+    test: async function (ctx, next) {
+        let params = ctx.request.body
+        let name = params.name
+        ctx.send({
+            status: 'success',
+            data: 'name:' + name
+        })
+    },
+    video: async function (ctx, next) {
+        ctx.send({status: 'success', data: 'video'})
+    },
     home: async(ctx, next) => {
         ctx.send({status: 'success', data: 'hello ikcmap'})
         // ctx.response.body = '<h1>HOME page</h1>'
@@ -30,5 +41,5 @@ module.exports = {
             ctx.state.title = "个人中心"
             await ctx.render("home/success", res.data)
         }
-    },
+    }
 }
