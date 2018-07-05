@@ -5,6 +5,9 @@ module.exports = {
     index: async function (ctx, next) {
         await ctx.render("home/index", {title: "iKcamp欢迎您"})
     },
+    neuroCat: async function (ctx, next) {
+        await ctx.render("neuroCat/index", {title: "神经猫"})
+    },
     test: async function (ctx, next) {
         let params = ctx.request.body
         let name = params.name

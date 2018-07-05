@@ -2,6 +2,7 @@ const router = require('koa-router')()
 const multer = require('koa-multer');
 const HomeController = require('./controller/home')
 const tencentController = require('./controller/tencent')
+const doubanController = require('./controller/douban')
 
 //上传图片配置
 var storage = multer.diskStorage({
@@ -19,6 +20,9 @@ var upload = multer({storage: storage});
 module.exports = (app) => {
 
     router.get('/', HomeController.index)
+    // 神经猫
+    router.get('/neuroCat', HomeController.neuroCat)
+
     // 测试上传接口
     router.post('/test', HomeController.test)
 
@@ -58,6 +62,18 @@ module.exports = (app) => {
 
     // 人脸融合
     router.post('/facemerge', upload.single('image'), tencentController.facemerge)
+
+    // 豆瓣API 正在热映
+    router.post('/douban/in_theaters', doubanController.in_theaters)
+
+    // 电影Top250
+    router.post('/douban/top250', doubanController.top250)
+
+    // 搜索电影
+    router.post('/douban/search', doubanController.search)
+
+    // 电影的详细信息
+    router.post('/douban/subject', doubanController.subject)
 
     router.get('/404', async(ctx, next) => {
         ctx.response.body = '<h1>404 Not Found</h1>'

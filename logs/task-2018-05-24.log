@@ -1,0 +1,143 @@
+[2018-05-24T15:11:14.974] [ERROR] cheese - {"method":"GET","url":"/","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:11:14.996] [INFO] cheese - 响应时间为0.044s
+[2018-05-24T15:11:15.274] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:11:15.622] [ERROR] cheese - {"method":"GET","url":"/favicon.ico","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:11:15.624] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:16:49.757] [ERROR] cheese - {"method":"GET","url":"/neuroCat","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:16:49.771] [INFO] cheese - 响应时间为0.036s
+[2018-05-24T15:16:49.798] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:16:49.800] [INFO] cheese - 响应时间为0.005s
+[2018-05-24T15:16:49.827] [ERROR] cheese - {"method":"GET","url":"/static/js/resource_loader.js?ver=255","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:16:49.829] [INFO] cheese - 响应时间为0.009s
+[2018-05-24T15:16:49.844] [ERROR] cheese - {"method":"GET","url":"/static/js/egret_loader.js","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:16:49.845] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:16:49.856] [ERROR] cheese - {"method":"GET","url":"/static/js/game-min-0722.js?223","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:16:49.858] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:16:50.067] [ERROR] cheese - {"method":"GET","url":"/static/js/resource_loader.js?ver=255","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:16:50.068] [INFO] cheese - 响应时间为0.004s
+[2018-05-24T15:16:50.085] [ERROR] cheese - {"method":"GET","url":"/static/js/egret_loader.js","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:16:50.086] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:16:50.097] [ERROR] cheese - {"method":"GET","url":"/static/js/game-min-0722.js?223","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:16:50.098] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:17:38.491] [ERROR] cheese - {"method":"GET","url":"/neuroCat","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:17:38.493] [INFO] cheese - 响应时间为0.009s
+[2018-05-24T15:17:38.583] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:17:38.585] [INFO] cheese - 响应时间为0.013s
+[2018-05-24T15:17:38.591] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:17:38.595] [INFO] cheese - 响应时间为0.016s
+[2018-05-24T15:17:38.598] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:17:38.600] [INFO] cheese - 响应时间为0.021s
+[2018-05-24T15:17:38.604] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:17:38.606] [INFO] cheese - 响应时间为0.025s
+[2018-05-24T15:17:38.677] [ERROR] cheese - {"method":"GET","url":"/static/js/resource_loader.js?ver=255","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:17:38.678] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:17:38.687] [ERROR] cheese - {"method":"GET","url":"/static/js/egret_loader.js","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:17:38.689] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:17:38.698] [ERROR] cheese - {"method":"GET","url":"/static/js/game-min-0722.js?223","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:17:38.699] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:18:25.582] [ERROR] cheese - {"method":"GET","url":"/neuroCat","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:25.587] [INFO] cheese - 响应时间为0.005s
+[2018-05-24T15:18:25.682] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:25.683] [INFO] cheese - 响应时间为0.012s
+[2018-05-24T15:18:25.689] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:25.691] [INFO] cheese - 响应时间为0.017s
+[2018-05-24T15:18:25.699] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:25.700] [INFO] cheese - 响应时间为0.022s
+[2018-05-24T15:18:25.707] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:25.709] [INFO] cheese - 响应时间为0.029s
+[2018-05-24T15:18:25.812] [ERROR] cheese - {"method":"GET","url":"/static/js/resource_loader.js?ver=255","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:25.813] [INFO] cheese - 响应时间为0.004s
+[2018-05-24T15:18:25.833] [ERROR] cheese - {"method":"GET","url":"/static/js/egret_loader.js","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:25.837] [INFO] cheese - 响应时间为0.007s
+[2018-05-24T15:18:25.849] [ERROR] cheese - {"method":"GET","url":"/static/js/game-min-0722.js?223","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:25.851] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:18:35.594] [ERROR] cheese - {"method":"GET","url":"/neuroCat","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:35.608] [INFO] cheese - 响应时间为0.034s
+[2018-05-24T15:18:35.679] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:35.683] [INFO] cheese - 响应时间为0.009s
+[2018-05-24T15:18:35.691] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:35.693] [INFO] cheese - 响应时间为0.016s
+[2018-05-24T15:18:35.697] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:35.700] [INFO] cheese - 响应时间为0.022s
+[2018-05-24T15:18:35.704] [ERROR] cheese - {"method":"GET","url":"/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:35.706] [INFO] cheese - 响应时间为0.03s
+[2018-05-24T15:18:35.743] [ERROR] cheese - {"method":"GET","url":"/static/js/resource_loader.js?ver=255","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:35.744] [INFO] cheese - 响应时间为0.004s
+[2018-05-24T15:18:35.758] [ERROR] cheese - {"method":"GET","url":"/static/js/egret_loader.js","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:35.759] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:18:35.768] [ERROR] cheese - {"method":"GET","url":"/static/js/game-min-0722.js?223","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:18:35.768] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:22:00.649] [ERROR] cheese - {"method":"GET","url":"/neuroCat","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:00.664] [INFO] cheese - 响应时间为0.038s
+[2018-05-24T15:22:00.756] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:00.758] [INFO] cheese - 响应时间为0.014s
+[2018-05-24T15:22:00.766] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:00.771] [INFO] cheese - 响应时间为0.023s
+[2018-05-24T15:22:00.782] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:00.783] [INFO] cheese - 响应时间为0.035s
+[2018-05-24T15:22:00.788] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:00.791] [INFO] cheese - 响应时间为0.038s
+[2018-05-24T15:22:00.832] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/js/resource_loader.js?ver=255","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:00.833] [INFO] cheese - 响应时间为0.006s
+[2018-05-24T15:22:00.857] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/js/egret_loader.js","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:00.858] [INFO] cheese - 响应时间为0.006s
+[2018-05-24T15:22:00.870] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/js/game-min-0722.js?223","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:00.872] [INFO] cheese - 响应时间为0.005s
+[2018-05-24T15:22:38.170] [ERROR] cheese - {"method":"GET","url":"/neuroCat","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:38.185] [INFO] cheese - 响应时间为0.042s
+[2018-05-24T15:22:38.267] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:38.269] [INFO] cheese - 响应时间为0.008s
+[2018-05-24T15:22:38.278] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:38.280] [INFO] cheese - 响应时间为0.017s
+[2018-05-24T15:22:38.283] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:38.284] [INFO] cheese - 响应时间为0.02s
+[2018-05-24T15:22:38.287] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/images/forpc.png","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:38.288] [INFO] cheese - 响应时间为0.023s
+[2018-05-24T15:22:38.331] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/js/resource_loader.js?ver=255","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:38.334] [INFO] cheese - 响应时间为0.005s
+[2018-05-24T15:22:38.344] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/js/egret_loader.js","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:38.345] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:22:38.353] [ERROR] cheese - {"method":"GET","url":"/neuroCat/static/js/game-min-0722.js?223","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"}
+[2018-05-24T15:22:38.353] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:24:51.308] [INFO] cheese - 响应时间为0.031s
+[2018-05-24T15:24:51.419] [INFO] cheese - 响应时间为0.013s
+[2018-05-24T15:24:51.427] [INFO] cheese - 响应时间为0.016s
+[2018-05-24T15:24:51.429] [INFO] cheese - 响应时间为0.018s
+[2018-05-24T15:24:51.431] [INFO] cheese - 响应时间为0.016s
+[2018-05-24T15:24:51.505] [INFO] cheese - 响应时间为0.009s
+[2018-05-24T15:24:51.508] [INFO] cheese - 响应时间为0.01s
+[2018-05-24T15:24:51.509] [INFO] cheese - 响应时间为0.009s
+[2018-05-24T15:24:51.510] [INFO] cheese - 响应时间为0.009s
+[2018-05-24T15:24:51.520] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:24:51.657] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:24:51.785] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:24:51.787] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:24:51.832] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:24:51.835] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:24:51.896] [INFO] cheese - 响应时间为0.006s
+[2018-05-24T15:24:51.927] [INFO] cheese - 响应时间为0.006s
+[2018-05-24T15:24:51.928] [INFO] cheese - 响应时间为0.006s
+[2018-05-24T15:24:51.955] [INFO] cheese - 响应时间为0.004s
+[2018-05-24T15:24:51.964] [INFO] cheese - 响应时间为0.004s
+[2018-05-24T15:24:51.989] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:24:51.993] [INFO] cheese - 响应时间为0.005s
+[2018-05-24T15:24:52.014] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:24:52.015] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:24:58.306] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:25:32.784] [INFO] cheese - 响应时间为0.004s
+[2018-05-24T15:25:32.795] [INFO] cheese - 响应时间为0.006s
+[2018-05-24T15:25:32.796] [INFO] cheese - 响应时间为0.004s
+[2018-05-24T15:25:32.800] [INFO] cheese - 响应时间为0.01s
+[2018-05-24T15:25:33.055] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:25:33.056] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:25:33.079] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:25:33.082] [INFO] cheese - 响应时间为0.004s
+[2018-05-24T15:25:33.106] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:25:33.107] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T15:25:33.124] [INFO] cheese - 响应时间为0.001s
+[2018-05-24T15:25:33.140] [INFO] cheese - 响应时间为0.003s
+[2018-05-24T15:25:33.141] [INFO] cheese - 响应时间为0.002s
+[2018-05-24T16:09:53.471] [ERROR] cheese - {"method":"GET","url":"/hp/device/InternalPages/Index?id=ConfigurationPage","host":"192.168.5.20","message":"log error","userAgent":"Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)"}
+[2018-05-24T16:09:53.474] [INFO] cheese - 响应时间为0.008s
+[2018-05-24T17:28:52.441] [ERROR] cheese - {"method":"GET","url":"/hp/device/InternalPages/Index?id=ConfigurationPage","host":"192.168.5.20","message":"log error","userAgent":"Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)"}
+[2018-05-24T17:28:52.442] [INFO] cheese - 响应时间为0.003s
