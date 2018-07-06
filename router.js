@@ -75,6 +75,9 @@ module.exports = (app) => {
     // 电影的详细信息
     router.post('/douban/subject', doubanController.subject)
 
+    // 演员的详细信息
+    router.post('/douban/celebrity', doubanController.celebrity)
+
     router.get('/404', async(ctx, next) => {
         ctx.response.body = '<h1>404 Not Found</h1>'
     })

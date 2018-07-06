@@ -43,5 +43,10 @@ module.exports = {
         let data = await API.subject(ctx.request.body)
         ctx.send(data)
     },
+
+    celebrity: async function (ctx, next) {
+        let data = await API.celebrity(ctx.request.body)
+        ctx.send(data)
+    },
    
 }

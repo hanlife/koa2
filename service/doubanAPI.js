@@ -49,11 +49,13 @@ var API = {
             });
     },
     search(params) {
+        let Type = params.Type
         let _parms = {
-            'q': params.q,
+            [Type]: params.keyword,
             'start': params.start,
             'count': params.count
         }
+        console.log(_parms)
         return Axios(BASE_URL + 'search', _parms).then((res) => {
             return res
         })
@@ -63,7 +65,16 @@ var API = {
     },
     subject(params) {
         let id = params.id
-        return Axios(BASE_URL + id).then((res) => {
+        return Axios(BASE_URL + 'subject/' + id).then((res) => {
+            return res
+        })
+            .catch(function (error) {
+                console.log(error);
+            });
+    },
+    celebrity(params) {
+        let id = params.id
+        return Axios(BASE_URL + 'celebrity/' + id).then((res) => {
             return res
         })
             .catch(function (error) {
