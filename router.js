@@ -3,6 +3,7 @@ const multer = require('koa-multer');
 const HomeController = require('./controller/home')
 const tencentController = require('./controller/tencent')
 const doubanController = require('./controller/douban')
+const wxController = require('./controller/wx')
 
 //上传图片配置
 var storage = multer.diskStorage({
@@ -15,7 +16,7 @@ var storage = multer.diskStorage({
         cb(null, Date.now() + "." + fileFormat[fileFormat.length - 1]);
     }
 })
-var upload = multer({storage: storage});
+var upload = multer({ storage: storage });
 
 module.exports = (app) => {
 
@@ -77,8 +78,17 @@ module.exports = (app) => {
 
     // 演员的详细信息
     router.post('/douban/celebrity', doubanController.celebrity)
+    // 小程序访问分析
+    
+    // 日趋势
+    router.post('/wx/day', wxController.getweanalysisappiddailyvisittrend)
+    // 周趋势  
+    router.post('/wx/week', wxController.getweanalysisappidweeklyvisittrend)
+    // 月趋势
+    router.post('/wx/month', wxController.getweanalysisappidmonthlyvisittrend)
 
-    router.get('/404', async(ctx, next) => {
+
+    router.get('/404', async (ctx, next) => {
         ctx.response.body = '<h1>404 Not Found</h1>'
     })
 

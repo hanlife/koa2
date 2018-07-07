@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
     "crypto": "^1.0.1",
     "ip": "^1.1.5",
     "koa": "^2.5.0",
