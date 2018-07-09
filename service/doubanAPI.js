@@ -15,6 +15,8 @@ https://api.douban.com/v2/movie/search?tag=喜剧&start=0&count=10
 
 如：电影《神秘巨星》的电影id为：26942674，搜索此电影的详细信息：
 https://api.douban.com/v2/movie/subject/26942674
+// 电影人
+https://api.douban.com/v2/movie/celebrity/1383897
 
 */
 

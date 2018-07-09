@@ -594,3 +594,22 @@
 [2018-07-06T16:27:15.181] [INFO] cheese - 响应时间为0.567s
 [2018-07-06T16:28:40.769] [ERROR] cheese - {"method":"POST","url":"/douban/in_theaters","host":"localhost:3000","message":"log error","referer":"https://servicewechat.com/wx40e50e29dd52b171/devtools/page-frame.html","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806120 MicroMessenger/6.5.7 Language/zh_CN webview/"}
 [2018-07-06T16:28:41.165] [INFO] cheese - 响应时间为0.397s
+[2018-07-06T16:38:52.846] [INFO] cheese - 响应时间为0.025s
+[2018-07-06T16:38:52.871] [ERROR] cheese - {"method":"GET","url":"/static/js/resource_loader.js?ver=255","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+[2018-07-06T16:38:52.873] [INFO] cheese - 响应时间为0.009s
+[2018-07-06T16:38:52.885] [ERROR] cheese - {"method":"GET","url":"/static/js/resource_loader.js?ver=255","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+[2018-07-06T16:38:52.888] [INFO] cheese - 响应时间为0.021s
+[2018-07-06T16:38:52.916] [ERROR] cheese - {"method":"GET","url":"/static/js/game-min-0722.js?223","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+[2018-07-06T16:38:52.916] [INFO] cheese - 响应时间为0.004s
+[2018-07-06T16:38:52.920] [ERROR] cheese - {"method":"GET","url":"/static/js/game-min-0722.js?223","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+[2018-07-06T16:38:52.921] [INFO] cheese - 响应时间为0.007s
+[2018-07-06T16:38:53.094] [ERROR] cheese - {"method":"GET","url":"/static/js/resource_loader.js?ver=255","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+[2018-07-06T16:38:53.094] [INFO] cheese - 响应时间为0.004s
+[2018-07-06T16:38:53.108] [ERROR] cheese - {"method":"GET","url":"/static/js/egret_loader.js","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+[2018-07-06T16:38:53.109] [INFO] cheese - 响应时间为0.004s
+[2018-07-06T16:38:53.122] [ERROR] cheese - {"method":"GET","url":"/static/js/game-min-0722.js?223","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+[2018-07-06T16:38:53.122] [INFO] cheese - 响应时间为0.002s
+[2018-07-06T16:38:53.294] [ERROR] cheese - {"method":"GET","url":"/favicon.ico","host":"localhost:3000","message":"log error","referer":"http://localhost:3000/neuroCat","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+[2018-07-06T16:38:53.295] [INFO] cheese - 响应时间为0.002s
+[2018-07-06T16:50:27.093] [ERROR] cheese - {"method":"GET","url":"/home","host":"localhost:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+[2018-07-06T16:50:27.097] [INFO] cheese - 响应时间为0.008s

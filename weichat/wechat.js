@@ -28,8 +28,10 @@ function Wechat(opts){
         }
 
         if(that.isValidAccessToken(data)){
+            console.log("isValidAccessToken")
            return Promise.resolve(data)
         }else{
+            console.log("updateEvaluation")
             return that.updateAccessToken()
         }
     })
@@ -67,7 +69,7 @@ Wechat.prototype.updateAccessToken = function(data){
             var data = res.body
             var now = (new Date().getTime())
             var expires_in = now + (data.expires_in - 20) * 1000
-    
+
             data.expires_in = expires_in
             resolve(data)
         })

@@ -20,7 +20,7 @@ module.exports = {
         ctx.send({status: 'success', data: 'video'})
     },
     home: async(ctx, next) => {
-        ctx.send({status: 'success', data: 'hello ikcmap'})
+        ctx.send({status: 'success', data: 'hello，world'})
         // ctx.response.body = '<h1>HOME page</h1>'
     },
     homeParams: async(ctx, next) => {

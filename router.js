@@ -78,8 +78,11 @@ module.exports = (app) => {
 
     // 演员的详细信息
     router.post('/douban/celebrity', doubanController.celebrity)
-    // 小程序访问分析
-    
+
+// 小程序访问分析
+
+    // 概况趋势
+    router.post('/wx/summary', wxController.getweanalysisappiddailysummarytrend)
     // 日趋势
     router.post('/wx/day', wxController.getweanalysisappiddailyvisittrend)
     // 周趋势  
