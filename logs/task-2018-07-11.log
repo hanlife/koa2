@@ -476,3 +476,5 @@
 [2018-07-11T18:00:34.806] [INFO] cheese - 响应时间为0.296s
 [2018-07-11T18:01:26.853] [ERROR] cheese - {"method":"POST","url":"/wx/getmessage","host":"localhost:3000","message":"log error","referer":"https://servicewechat.com/wx40e50e29dd52b171/devtools/page-frame.html","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806120 MicroMessenger/6.5.7 Language/zh_CN webview/"}
 [2018-07-11T18:01:26.884] [INFO] cheese - 响应时间为0.032s
+[2018-07-11T18:01:27.136] [ERROR] cheese - {"method":"POST","url":"/wx/getOpenid","host":"localhost:3000","message":"log error","referer":"https://servicewechat.com/wx40e50e29dd52b171/devtools/page-frame.html","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806120 MicroMessenger/6.5.7 Language/zh_CN webview/"}
+[2018-07-11T18:01:27.339] [INFO] cheese - 响应时间为0.204s
