@@ -23,6 +23,9 @@
     "koa-static": "^4.0.2",
     "log4js": "^2.5.3",
     "md5": "^2.2.1",
+    "moment": "^2.22.2",
+    "mysql": "^2.15.0",
+    "node-mysql-promise": "^0.0.7",
     "querystring": "^0.2.0",
     "randomstring": "^1.1.5"
   }

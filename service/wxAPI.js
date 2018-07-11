@@ -1,28 +1,8 @@
 const Axios = require('./axios');
+const Mysql = require('node-mysql-promise');
+const moment = require('moment')
 
-/*
-
-概况趋势
-https://api.weixin.qq.com/datacube/getweanalysisappiddailysummarytrend?access_token=ACCESS_TOKEN
-
-https请求方式: GET
-https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
-
-日趋势
-https://api.weixin.qq.com/datacube/getweanalysisappiddailyvisittrend?access_token=ACCESS_TOKEN
-{
-    "begin_date" : "20170313",
-    "end_date" : "20170313"
-  }
-
-周趋势
-https://api.weixin.qq.com/datacube/getweanalysisappidweeklyvisittrend?access_token=ACCESS_TOKEN
-{
-"begin_date":"20170306",
-"end_date":"20170312"
-}
-
-*/
+const mysql = Mysql.createConnection({host: 'localhost', database: 'mywx', user: 'hanlife', password: '714613002'});
 
 // AI接口列表
 const BASE_URL = 'https://api.weixin.qq.com/'
@@ -75,6 +55,64 @@ var API = {
         }
         _parms = JSON.stringify(_parms)
         return Axios(BASE_URL + 'datacube/getweanalysisappidmonthlyvisittrend?access_token=' + ACCESS_TOKEN, _parms).then((res) => {
+            return res
+        })
+            .catch(function (error) {
+                console.log(error);
+            });
+    },
+    // 留言板
+    writemessage(params) {
+        let data = {
+            content: params.content,
+            name: params.name
+        }
+        data.creattime = moment(new Date()).format('YYYY-MM-DD HH:mm:ss');
+        data.toid = '1'
+        return mysql
+            .table('message')
+            .add(data)
+            .then(function (insertId) {
+                return true
+            })
+            .catch(function (err) {
+                console.log(err)
+                return false
+            })
+    },
+    getmessage(params) {
+        return mysql
+            .table('message')
+            .page(params.currentPage, params.pageSize)
+            .countSelect()
+            .then(function (data) {
+                return data
+            });
+    },
+    userInfo(params) {
+        let data = {
+            avatarUrl: params.avatarUrl,
+            city: params.city,
+            country: params.country,
+            gender: params.gender,
+            nickName: params.nickName,
+            province: params.province,
+            openid: params.openid
+        }
+        return mysql
+            .table('user')
+            .add(data)
+            .then(function (insertId) {
+                return true
+            })
+            .catch(function (err) {
+                console.log(err)
+                return false
+            })
+    },
+    getOpenid(params, config) {
+        let code = params.code
+        return Axios(BASE_URL + "sns/jscode2session?appid=" + config.appId + "&secret=" + config.appSecret + "&js_code=" + code + "&grant_type=authorization_code").then((res) => {
             return res
         })
             .catch(function (error) {

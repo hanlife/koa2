@@ -3,24 +3,8 @@ const {API} = require('../service/wxAPI')
 
 const Wechat = require('../weichat/wechat')
 const config = require('../weichat/config')
-
-// 处理AI接口返回值
-function formatData(data) {
-    let res = {}
-    if (data.ret === 0) {
-        res = {
-            status: 'success',
-            data: data.data
-        }
-    } else {
-        res = {
-            status: 'fail',
-            data: {},
-            errMsg: data.msg
-        }
-    }
-    return res
-}
+// 初始化wx session
+new Wechat(config.wechat)
 
 // 微信小程序接口
 module.exports = {
@@ -82,6 +66,31 @@ module.exports = {
                 'Content-Type': 'application/json;charset=UTF-8'
             }
         })
+        ctx.send(data)
+    },
+    // 留言板
+    writemessage: async function (ctx, next) {
+        let data = await API.writemessage(ctx.request.body)
+        if (data) {
+            ctx.send({code: 0, data: '操作成功'})
+        } else {
+            ctx.send({code: -1, data: '操作失败'})
+        }
+    },
+    getmessage: async function (ctx, next) {
+        let data = await API.getmessage(ctx.request.body)
+        ctx.send({code: 0, data: data})
+    },
+    userInfo: async function (ctx, next) {
+        let data = await API.userInfo(ctx.request.body)
+        if (data) {
+            ctx.send({code: 0, data: '操作成功'})
+        } else {
+            ctx.send({code: -1, data: '操作失败'})
+        }
+    },
+    getOpenid: async function (ctx, next) {
+        let data = await API.getOpenid(ctx.request.body, config.wechat)
         ctx.send(data)
     }
 }

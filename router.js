@@ -16,7 +16,7 @@ var storage = multer.diskStorage({
         cb(null, Date.now() + "." + fileFormat[fileFormat.length - 1]);
     }
 })
-var upload = multer({ storage: storage });
+var upload = multer({storage: storage});
 
 module.exports = (app) => {
 
@@ -79,19 +79,25 @@ module.exports = (app) => {
     // 演员的详细信息
     router.post('/douban/celebrity', doubanController.celebrity)
 
-// 小程序访问分析
-
-    // 概况趋势
+    // 小程序访问分析 概况趋势
     router.post('/wx/summary', wxController.getweanalysisappiddailysummarytrend)
     // 日趋势
     router.post('/wx/day', wxController.getweanalysisappiddailyvisittrend)
-    // 周趋势  
+    // 周趋势
     router.post('/wx/week', wxController.getweanalysisappidweeklyvisittrend)
     // 月趋势
     router.post('/wx/month', wxController.getweanalysisappidmonthlyvisittrend)
 
+    // 获取留言版
+    router.post('/wx/getmessage', wxController.getmessage)
+    // 写入留言版
+    router.post('/wx/writemessage', wxController.writemessage)
+    // 写入用户信息
+    router.post('/wx/userInfo', wxController.userInfo)
+    // 获取Openid
+    router.post('/wx/getOpenid', wxController.getOpenid)
 
-    router.get('/404', async (ctx, next) => {
+    router.get('/404', async(ctx, next) => {
         ctx.response.body = '<h1>404 Not Found</h1>'
     })
 
