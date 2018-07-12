@@ -2,7 +2,7 @@ const Axios = require('./axios');
 const Mysql = require('node-mysql-promise');
 const moment = require('moment')
 
-const mysql = Mysql.createConnection({host: 'localhost', database: 'mywx', user: 'hanlife', password: '714613002'});
+const mysql = Mysql.createConnection({host: 'localhost', database: 'mywx', user: 'hanlife', password: '714613002', dateStrings: true});
 
 // AI接口列表
 const BASE_URL = 'https://api.weixin.qq.com/'
@@ -84,7 +84,8 @@ var API = {
         return mysql
             .table('message')
             .page(params.currentPage, params.pageSize)
-            .countSelect()
+            .order('creat_time DESC,id DESC')
+            .countSelect({}, true)
             .then(function (data) {
                 return data
             });
