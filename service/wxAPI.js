@@ -64,10 +64,12 @@ var API = {
     // 留言板
     writemessage(params) {
         let data = {
-            content: params.content,
-            name: params.name
+            content: params.value,
+            name: params.nickName,
+            openid:params.openid,
+            avatarUrl:params.avatarUrl
         }
-        data.creattime = moment(new Date()).format('YYYY-MM-DD HH:mm:ss');
+        data.creat_time = moment(new Date()).format('YYYY-MM-DD HH:mm:ss');
         data.toid = '1'
         return mysql
             .table('message')
