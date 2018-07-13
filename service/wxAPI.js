@@ -66,11 +66,15 @@ var API = {
         let data = {
             content: params.value,
             name: params.nickName,
-            openid:params.openid,
-            avatarUrl:params.avatarUrl
+            openid: params.openid,
+            avatarUrl: params.avatarUrl
+        }
+        if(params.value == ''){
+            return false
         }
         data.creat_time = moment(new Date()).format('YYYY-MM-DD HH:mm:ss');
         data.toid = '1'
+
         return mysql
             .table('message')
             .add(data)
@@ -102,15 +106,14 @@ var API = {
             province: params.province,
             openid: params.openid
         }
+        let where = {
+            openid: data.openid
+        }
         return mysql
             .table('user')
-            .add(data)
-            .then(function (insertId) {
-                return true
-            })
-            .catch(function (err) {
-                console.log(err)
-                return false
+            .thenAdd(data, where, true)
+            .then(function (data) {
+                return data
             })
     },
     getOpenid(params, config) {

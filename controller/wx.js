@@ -83,10 +83,10 @@ module.exports = {
     },
     userInfo: async function (ctx, next) {
         let data = await API.userInfo(ctx.request.body)
-        if (data) {
+        if (data.type==='add') {
             ctx.send({code: 0, data: '操作成功'})
         } else {
-            ctx.send({code: -1, data: '操作失败'})
+            ctx.send({code: -1, data: '已经存在'})
         }
     },
     getOpenid: async function (ctx, next) {
