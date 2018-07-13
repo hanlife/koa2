@@ -1,8 +1,0 @@
-[2018-05-28T09:18:56.846] [ERROR] cheese - {"method":"POST","url":"/video","host":"192.168.5.56:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36"}
-[2018-05-28T09:18:57.039] [INFO] cheese - 响应时间为0.268s
-[2018-05-28T09:19:44.747] [ERROR] cheese - {"method":"POST","url":"/video","host":"192.168.5.56:3000","message":"log error","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36"}
-[2018-05-28T09:19:44.770] [INFO] cheese - 响应时间为0.024s
-[2018-05-28T15:07:01.872] [ERROR] cheese - {"method":"GET","url":"/hp/device/InternalPages/Index?id=ConfigurationPage","host":"192.168.5.56","message":"log error","userAgent":"Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)"}
-[2018-05-28T15:07:01.882] [INFO] cheese - 响应时间为0.138s
-[2018-05-28T16:02:28.328] [ERROR] cheese - {"method":"GET","url":"/hp/device/InternalPages/Index?id=ConfigurationPage","host":"192.168.5.56","message":"log error","userAgent":"Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)"}
-[2018-05-28T16:02:28.330] [INFO] cheese - 响应时间为0.006s
