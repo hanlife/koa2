@@ -69,7 +69,7 @@ var API = {
             openid: params.openid,
             avatarUrl: params.avatarUrl
         }
-        if(params.value == ''){
+        if (params.value == '') {
             return false
         }
         data.creat_time = moment(new Date()).format('YYYY-MM-DD HH:mm:ss');
@@ -118,7 +118,20 @@ var API = {
     },
     getOpenid(params, config) {
         let code = params.code
+        let creat_time = moment(new Date()).format('YYYY-MM-DD HH:mm:ss');
         return Axios(BASE_URL + "sns/jscode2session?appid=" + config.appId + "&secret=" + config.appSecret + "&js_code=" + code + "&grant_type=authorization_code").then((res) => {
+            let data = {
+                creat_time,
+                openid: res.openid
+            }
+            mysql
+                .table('openid')
+                .thenAdd(data, {
+                    openid: res.openid
+                }, true)
+                .then(function (data) {
+                    console.log(data)
+                })
             return res
         })
             .catch(function (error) {
